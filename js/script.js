@@ -1,0 +1,2 @@
+window.addEventListener("scroll",function(){var e=document.getElementById("totop");window.pageYOffset>1260?(e.classList.remove("d-none"),e.classList.add("d-flex")):(e.classList.remove("d-flex"),e.classList.add("d-none"))});
+var navbarToggler=document.getElementById("navbarToggler"),mobileMenu=document.getElementById("mobile-menu"),closeMenu=document.getElementById("close");navbarToggler.addEventListener("click",function(){mobileMenu.style.right="0px"}),closeMenu.addEventListener("click",function(){mobileMenu.style.right="-100%"});
