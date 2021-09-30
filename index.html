@@ -32,13 +32,15 @@
     </head>  
     <body>
             <header id="header">
-                    <img src="img/hero/top-left-shape.png" alt="top-left-img" class="topimg position-absolute">
+                    <img src="img/hero/top-left-shape.png" alt="top-left-img" class="topimg position-absolute top-0 start-0">
                     <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
                         <div class="container">
-                          <a class="navbar-brand m-0" href="#"><img src="img/logo/logo1.png" alt="brand"></a>
+                          <a class="navbar-brand m-0 p-0" href="#"><img src="img/logo/logo1.png" alt="brand"></a>
                           <div class="mobile-menu vh-100 position-fixed w-75 p-3 d-lg-none overflow-scroll" id="mobile-menu">
-                              <button class="d-flex justify-content-center align-items-center bg-transparent border-0 position-absolute" id="close"><i class="fas fa-times text-white display-6"></i></button>
-                            <div class="menu-head text-center mt-5">
+                            <button class="bg-transparent border-0" id="close">
+                                <i class="fas fa-times text-white display-6"></i>
+                            </button>
+                            <div class="menu-head text-center mt-3">
                                 <img src="img/logo/logo1.png" alt="mpbile-menu-brand">
                             </div>
                             <div class="mobile-input-container position-relative my-3">
@@ -46,39 +48,39 @@
                                 <input class="form-control w-100 px-5 rounded-pill" type="text" placeholder="جستجو دامنه...." aria-label="default input example">
                                 <i class="fa fa-search position-absolute top-0"></i>
                             </div>
-                            <div class="mobile-menu-ul mt-5">
+                            <div class="mobile-menu-ul mt-4">
                                 <h2 class="main-color fs-3">منو دسترسی</h2>
                             <hr class="text-secondary">
                             <ul class="list-unstyled p-0">
                                 <li class="w-100 py-3 border-bottom">
-                                    <a href="#" class="d-flex justify-content-between align-items-center text-decoration-none w-100">
+                                    <a href="#header" class="d-flex justify-content-between align-items-center text-decoration-none w-100">
                                         <span class="text-white">درباره ما</span>
                                         <i class="fas fa-arrow-left text-white"></i>
                                     </a>
                                 </li>
                                 <li class="w-100 py-3 border-bottom">
-                                    <a href="#" class="d-flex justify-content-between align-items-center text-decoration-none w-100">
+                                    <a href="#domain" class="d-flex justify-content-between align-items-center text-decoration-none w-100">
                                         <span class="text-white">دامنه</span>
                                         <i class="fas fa-arrow-left text-white"></i>
                                     </a>
                                     
                                 </li>
                                 <li class="w-100 py-3 border-bottom">
-                                    <a href="#" class="d-flex justify-content-between align-items-center text-decoration-none w-100">
+                                    <a href="#plans" class="d-flex justify-content-between align-items-center text-decoration-none w-100">
                                         <span class="text-white">هاست</span>
                                         <i class="fas fa-arrow-left text-white"></i>
                                     </a>
                                     
                                 </li>
                                 <li class="w-100 py-3 border-bottom">
-                                    <a href="#" class="d-flex justify-content-between align-items-center text-decoration-none w-100">
+                                    <a href="#main-questions" class="d-flex justify-content-between align-items-center text-decoration-none w-100">
                                         <span class="text-white">سوالات متداول</span>
                                         <i class="fas fa-arrow-left text-white"></i>
                                     </a>
                                     
                                 </li>
                                 <li class="w-100 py-3">
-                                    <a href="#" class="d-flex justify-content-between align-items-center text-decoration-none w-100">
+                                    <a href="#footer" class="d-flex justify-content-between align-items-center text-decoration-none w-100">
                                         <span class="text-white">ارتباط با ما</span>
                                         <i class="fas fa-arrow-left text-white"></i>
                                     </a>
@@ -86,50 +88,54 @@
                                 </li>
                               </ul>
                             </div>
+                            <div class="d-flex justify-content-center align-items-center flex-column">
+                                <button href="#" class="btn-grad text-white text-decoration-none p-2 rounded-pill mb-3 text-center border-0">ورود به پنل کاربری</button>
+                                <button href="#" class="btn-grad text-white text-decoration-none p-2 rounded-pill text-center border-0">تخفیف های ویژه</button>
+                            </div>
                           </div>
-                          <button class="navbar-toggler" type="button" id="navbarToggler">
+                          <button class="navbar-toggler" id="navbarToggler">
                             <span class="navbar-toggler-icon"></span>
                           </button>
-                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <div class="collapse navbar-collapse">
                             <ul class="navbar-nav mx-auto mb-2 mb-lg-0 p-0">
-                              <li class="nav-item ms-4 position-relative">
+                              <li class="nav-item ms-4 ms-lg-0 ms-xl-4 position-relative">
                                 <a class="nav-link text-white fs-6 fw-bolder"href="#services">درباره ما</a>
                               </li>
-                              <li class="nav-item ms-4 position-relative">
+                              <li class="nav-item ms-4 ms-lg-0 ms-xl-4 position-relative">
                                 <a class="nav-link text-white fs-6 fw-bolder" href="#domain">دامنه</a>
                               </li>
-                              <li class="nav-item ms-4 position-relative">
+                              <li class="nav-item ms-4 ms-lg-0 ms-xl-4 position-relative">
                                 <a class="nav-link text-white fs-6 fw-bolder" href="#plans">هاست</a>
                               </li>
-                              <li class="nav-item ms-4 position-relative">
+                              <li class="nav-item ms-4 ms-lg-0 ms-xl-4 position-relative">
                                 <a class="nav-link text-white fs-6 fw-bolder" href="#main-questions">سوالات متداول</a>
                               </li>
-                              <li class="nav-item ms-4 position-relative">
+                              <li class="nav-item ms-4 ms-lg-0 ms-xl-4 position-relative">
                                 <a class="nav-link text-white fs-6 fw-bolder" href="#footer">ارتباط با ما</a>
                               </li>
                             </ul>
-                            <div class="d-flex">
-                                <a href="#" class="btn-grad text-white text-decoration-none p-2 rounded-pill mx-1">ورود به پنل کاربری</a>
-                                <a href="#" class="btn-grad text-white text-decoration-none p-2 rounded-pill mx-1">تخفیف های ویژه</a>
+                            <div>
+                                <a href="#" class="btn-grad text-white text-decoration-none p-2 rounded-pill mx-1 mx-lg-0 mx-xl-1 text-center">ورود به پنل کاربری</a>
+                                <a href="#" class="btn-grad text-white text-decoration-none p-2 rounded-pill mx-1 mx-lg-0 mx-xl-1 text-center">تخفیف های ویژه</a>
                             </div>
                           </div>
                         </div>
-                      </nav>
+                    </nav>
                     <div class="intro py-5">
                         <div class="container d-flex justify-content-center align-items-center flex-wrap">
-                            <div class="intro-desc col-12 col-md-6 col-lg-6 text-center text-md-end">
+                            <div class="intro-desc col-12 col-md-6 col-lg-6 text-center text-lg-end mb-4 mb-md-0">
                                 <h5 class="text-white my-3">بهترین ارائه دهنده خدمات دامنه و میزبانی هاست</h5>
-                                <h1 class="text-white fw-bold my-3 display-2">میزبانی وب قدرتمند</h1>
-                                <p class="text-white w-75 my-3 m-auto mx-md-0 lh-lg">میزبانی وردپرس خود را با جزئیات فوق العاده شارژ کنید تجزیه و تحلیل وب سایت ، ابزار بازاریابی ، امنیت و داده ها پشتیبان گیری از همه در یک مکان.</p>
-                                <a href="#" class="btn-grad text-white text-decoration-none p-2 rounded-pill">مشاهده سرویس ها</a>
+                                <h1 class="text-white display-1 my-3">میزبانی وب قدرتمند</h1>
+                                <p class="text-white my-3 lh-lg">میزبانی وردپرس خود را با جزئیات فوق العاده شارژ کنید تجزیه و تحلیل وب سایت ، ابزار بازاریابی ، امنیت و داده ها پشتیبان گیری از همه در یک مکان.</p>
+                                <button href="#" class="btn-grad text-white text-decoration-none p-2 rounded-pill border-0">مشاهده سرویس ها</button>
                             </div>
                             <div class="intro-img col-12 col-md-6 col-lg-6">
                                 <img src="img/442-ai.png" alt="plans-background" class="w-100">
                             </div>
                         </div>
                     </div>
-                    <a class="totop-container position-fixed bg-primary p-3 rounded-circle d-none justify-content-center align-items-center text-decoration-none" id="totop" href="#header">
-                        <i class="fas fa-chevron-up text-white fs-2 h-100 w-100"></i>
+                    <a class="totop-container position-fixed bg-primary p-3 rounded-circle d-none justify-content-center align-items-center" id="totop" href="#header">
+                        <i class="fas fa-chevron-up text-white fs-2 w-100"></i>
                     </a>
             </header>
             <main>
