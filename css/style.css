@@ -192,12 +192,12 @@ footer{
   .input-group{
     width: 75%;
   }
-  header{
-    height: 100vh;
-  }
 }
 @media only screen and (min-width: 992px) {
   .input-container {
     width: 50% !important;
+  }
+  header{
+    height: 100vh;
   }
 }
