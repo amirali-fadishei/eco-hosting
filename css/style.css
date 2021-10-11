@@ -183,7 +183,7 @@ footer{
   cursor: pointer !important;
   transform: scale(1.2);
 }
-.column ul li a:hover{
+.links-column ul li a:hover{
   color: #040c38 !important;
   text-decoration: underline !important;
 }
