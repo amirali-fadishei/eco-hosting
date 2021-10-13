@@ -158,7 +158,8 @@ header {
 }
 /* footer */
 footer{
-  background: #2019dd;
+  background: rgb(20,37,214);
+  background: linear-gradient(90deg, rgba(20,37,214,1) 0%, rgba(31,201,222,1) 100%); 
   padding: 100px 0 50px 0;
 }
 .footer-img{
